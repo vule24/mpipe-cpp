@@ -11,6 +11,7 @@ private:
     float sum;
 protected:
     WorkerA* clone() {
+        //just modify the class name for this function (obligatory)
         return new WorkerA(*this);
     }
 

@@ -10,6 +10,7 @@ class WorkerB : public Worker {
 private:
 protected:
     WorkerB* clone() {
+        //just modify the class name for this function (obligatory)
         return new WorkerB(*this);
     }
 
